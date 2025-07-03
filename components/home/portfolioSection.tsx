@@ -30,7 +30,7 @@ const PortfolioSection = () => {
 
     return (
         <>
-            <section className='w-full md:max-w-[1440px] mx-auto'>
+            <section className='w-full md:max-w-[1440px] mx-auto' id='portfolio'>
                 <div className='w-[90%] mx-auto py-10'>
                     <div className='w-full md:flex items-center justify-between'>
                         <div>
@@ -42,10 +42,10 @@ const PortfolioSection = () => {
                             <div>
                                 <div className="global-btn">
                                     <div className='global-btn-left'>
-                                        <button>View My Portfolio</button>
+                                        <button>View My Resume</button>
                                     </div>
                                     <div className='global-btn-right'>
-                                        <a href="#"><StepForward /></a>
+                                        <a target='_blank' href="https://drive.google.com/drive/folders/17yK9a_C7XttaXHy7L5JxtrJnH1OFi9Yp?usp=sharing"><StepForward /></a>
                                     </div>
                                 </div>
                             </div>

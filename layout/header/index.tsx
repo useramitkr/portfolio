@@ -3,8 +3,8 @@ import React from 'react';
 const Header: React.FC = () => {
   return (
     <>
-      <section className="w-full md:max-w-[1440px] mx-auto">
-        <div className="flex justify-between items-center w-[90%] mx-auto py-2 my-4 bg-[#354C37] text-white px-4 sm:px-6 rounded-2xl">
+      <section className="w-full md:max-w-[1440px] mx-auto sticky top-1 z-99">
+        <div className="flex justify-between items-center w-[90%] mx-auto py-2 my-4 bg-[#354C37] text-white px-4 sm:px-6 rounded-2xl shadow-sm shadow-amber-300">
           <div>
             <a href="/">
               <h1>LOGO</h1>
@@ -15,19 +15,19 @@ const Header: React.FC = () => {
           <div className="hidden sm:block">
             <ul className="flex items-center gap-4 sm:gap-6">
               <li className="hover:text-[#FAAD1A]">
-                <a href="#">Home</a>
+                <a href="#hero">Home</a>
               </li>
               <li className="hover:text-[#FAAD1A]">
-                <a href="#">About</a>
+                <a href="#about">About</a>
               </li>
               <li className="hover:text-[#FAAD1A]">
-                <a href="#">Services</a>
+                <a href="#service">Services</a>
               </li>
               <li className="hover:text-[#FAAD1A]">
-                <a href="#">Portfolio</a>
+                <a href="#portfolio">Portfolio</a>
               </li>
               <li className="hover:text-[#FAAD1A]">
-                <a href="#">Contact</a>
+                <a href="#footer">Contact</a>
               </li>
             </ul>
           </div>

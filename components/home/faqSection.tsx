@@ -5,18 +5,38 @@ import React, { useState } from 'react'
 const faqData: FaqItem[] = [
     {
         id: 1,
-        question: 'What is Next.js?',
-        answer: 'Next.js is a React framework for production with features like SSR and static site generation.'
+        question: 'What technologies do you work with?',
+        answer: 'I specialize in React.js, Next.js, Tailwind CSS, TypeScript, JavaScript, WordPress, and Shopify. I focus on building modern, responsive, and accessible websites.'
     },
     {
         id: 2,
-        question: 'What is Tailwind CSS?',
-        answer: 'Tailwind CSS is a utility-first CSS framework for rapidly building custom designs.'
+        question: 'Why should I hire you as a frontend developer?',
+        answer: 'I combine strong technical skills with attention to design and user experience. I’m passionate about clean code, performance optimization, and delivering solutions that meet real business needs. I’m reliable, detail-oriented, and committed to continuous learning.'
     },
     {
         id: 3,
-        question: 'What is Lucide?',
-        answer: 'Lucide is an open-source icon library built by the community.'
+        question: 'Do you create responsive designs for all devices?',
+        answer: 'Yes, I ensure that all websites and applications I build are fully responsive and work smoothly across desktop, tablet, and mobile devices.'
+    },
+    {
+        id: 4,
+        question: 'How do you ensure code quality in your projects?',
+        answer: 'I follow clean code principles, modular architecture, and use tools like ESLint and Prettier. I also review and test code carefully to ensure maintainability and scalability.'
+    },
+    {
+        id: 5,
+        question: 'What’s your approach to performance optimization?',
+        answer: 'I prioritize performance by lazy loading assets, optimizing images, minimizing CSS/JS, and using frameworks like Next.js for server-side rendering and static site generation.'
+    },
+    {
+        id: 6,
+        question: 'How do you stay updated with frontend trends?',
+        answer: 'I actively follow industry blogs, contribute to projects, and continuously explore new frameworks, libraries, and best practices to keep my skills sharp.'
+    },
+    {
+        id: 7,
+        question: 'Can you collaborate with designers and backend developers?',
+        answer: 'Absolutely! I enjoy working as part of a team, ensuring smooth integration between frontend, backend, and design for seamless user experiences.'
     },
 ];
 
@@ -29,7 +49,7 @@ const FaqSection = () => {
 
     return (
         <>
-            <section className='bg-[#354C37] pt-15 pb-10'>
+            <section className='bg-[#354C37] pt-15 pb-10' id='faq'>
                 <section className='w-full md:max-w-[1440px] mx-auto bg-[#354C37]'>
                     <div className='md:flex items-center justify-between w-[90%] mx-auto md:py-10'>
                         <div className='text-white'>
@@ -55,7 +75,7 @@ const FaqSection = () => {
                                         {isOpen ? (
                                             <Minus className='w-5 h-5' />
                                         ) : (
-                                            <Minus className='w-5 h-5' />
+                                            <Plus className='w-5 h-5' />
                                         )}
                                     </button>
 

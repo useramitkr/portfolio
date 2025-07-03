@@ -1,4 +1,4 @@
-import Temp from '@/components/home/infoSection';
+import InfoSection from '@/components/home/infoSection';
 import { Github, Linkedin, MailCheck, MessageCircleMore, PhoneCall, StepForward } from 'lucide-react';
 import React from 'react'
 
@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
       <section>
 
         {/* Footer area  */}
-        <section className='w-full md:max-w-[1440px] mx-auto'>
+        <section className='w-full md:max-w-[1440px] mx-auto pt-10' id='footer'>
           <div className='md:flex items-center justify-between w-[90%] mx-auto md:pb-10 border-b-1 border-gray-300'>
             <div className='w-full md:flex items-center justify-between'>
               <div>
@@ -19,10 +19,10 @@ const Footer: React.FC = () => {
                 <div>
                   <div className="global-btn">
                     <div className='global-btn-left'>
-                      <button>View My Portfolio</button>
+                      <button>View My Resume</button>
                     </div>
                     <div className='global-btn-right'>
-                      <a href="#"><StepForward /></a>
+                      <a target='_blank' href="https://drive.google.com/drive/folders/17yK9a_C7XttaXHy7L5JxtrJnH1OFi9Yp?usp=sharing"><StepForward /></a>
                     </div>
                   </div>
                 </div>
@@ -39,20 +39,9 @@ const Footer: React.FC = () => {
               className="md:h-[600px] w-[90%] mx-auto rounded-2xl aspect-video"
             ></iframe>
           </div>
-
-          {/* after video  */}
-          <div className='w-[90%] mx-auto mt-15'>
-            <div className='flex items-center justify-center gap-4'>
-              <div className='transition-all duration-300 ease-in bg-amber-300 rounded-[50%] p-2 hover:bg-[#344C36] hover:text-white'><a href="#"><Linkedin /></a></div>
-              <div className='transition-all duration-300 ease-in bg-amber-300 rounded-[50%] p-2 hover:bg-[#344C36] hover:text-white'><a href="#"><Github /></a></div>
-              <div className='transition-all duration-300 ease-in bg-amber-300 rounded-[50%] p-2 hover:bg-[#344C36] hover:text-white'><a href="#"><PhoneCall /></a></div>
-              <div className='transition-all duration-300 ease-in bg-amber-300 rounded-[50%] p-2 hover:bg-[#344C36] hover:text-white'><a href="#"><MessageCircleMore /></a></div>
-              <div className='transition-all duration-300 ease-in bg-amber-300 rounded-[50%] p-2 hover:bg-[#344C36] hover:text-white'><a href="#"><MailCheck /></a></div>
-            </div>
-          </div>
         </section>
 
-        <Temp />
+        <InfoSection />
 
         {/* Marquee text  */}
         <section className='w-full bg-[#344D37] mt-15'>
@@ -87,10 +76,20 @@ const Footer: React.FC = () => {
 
         {/* Footer Credit  */}
         <section className='w-full bg-[#344D37]'>
-          <div className='text-white py-6 w-[90%] mx-auto'>
-            <div>
+          <div className='text-white py-2 w-[90%] mx-auto'>
+            <div className='md:flex items-center justify-between text-center md:text-left'>
               <div>
-                dfgdfgdg
+                <p>Copyright @ 2025 <span className='text-amber-300'>Amit Kumar.</span> All Right Reserved.</p>
+              </div>
+
+              <div>
+                <div className='flex items-center justify-center gap-4 text-black py-2'>
+                  <div className='transition-all duration-300 ease-in bg-amber-300 rounded-[50%] p-2 hover:bg-[#344C36] hover:text-white hover:border-1 hover:border-white'><a target='_blank' href="https://www.linkedin.com/in/useramitkr/"><Linkedin /></a></div>
+                  <div className='transition-all duration-300 ease-in bg-amber-300 rounded-[50%] p-2 hover:bg-[#344C36] hover:text-white hover:border-1 hover:border-white'><a target='_blank' href="https://github.com/useramitkr"><Github /></a></div>
+                  <div className='transition-all duration-300 ease-in bg-amber-300 rounded-[50%] p-2 hover:bg-[#344C36] hover:text-white hover:border-1 hover:border-white'><a target='_blank' href="tel:918777427484"><PhoneCall /></a></div>
+                  <div className='transition-all duration-300 ease-in bg-amber-300 rounded-[50%] p-2 hover:bg-[#344C36] hover:text-white hover:border-1 hover:border-white'><a target='_blank' href="https://wa.me/918777427484"><MessageCircleMore /></a></div>
+                  <div className='transition-all duration-300 ease-in bg-amber-300 rounded-[50%] p-2 hover:bg-[#344C36] hover:text-white hover:border-1 hover:border-white'><a target='_blank' href="mailto:devamitkr9@gmail.com"><MailCheck /></a></div>
+                </div>
               </div>
 
             </div>
