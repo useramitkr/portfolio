@@ -6,7 +6,6 @@ Welcome to my portfolio! This project showcases my work, skills, and experience 
 
 ## 📌 Features
 - Responsive, modern UI built with **Next.js** + **Tailwind CSS**
-- Interactive elements using **GSAP** for smooth animations
 - Icons powered by **Lucide React**
 - Fully accessible and SEO-friendly
 - Dynamic sections:
@@ -24,9 +23,8 @@ Welcome to my portfolio! This project showcases my work, skills, and experience 
 - **Framework:** Next.js (TypeScript + React)
 - **Styling:** Tailwind CSS
 - **Icons:** Lucide React
-- **Animation:** GSAP + ScrollTrigger
 - **Hosting:** Vercel (or suitable platform)
 
 ---
 
-## 📂 Folder Structure
+## 📂 <a href="https://amitkr-portfolio.vercel.app/">Live URL</a>
