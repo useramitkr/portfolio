@@ -19,8 +19,82 @@
   }
 }
 
-body {
+/* body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+} */
+
+html, body {
+  height: 100%;
+  overflow-x: hidden;
 }
+
+/* Global Button Styles */
+.global-btn {
+  background-color: #FFD54F;
+  padding: 0 10px 0 0;
+  border-radius: 15px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none; /* Ensure no underline for <a> */
+}
+
+.global-btn .global-btn-left {
+  width: 80%;
+  background: #354C37;
+  border-radius: 15px;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.global-btn .global-btn-right {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 20%;
+  cursor: pointer;
+}
+
+.global-btn-right a {
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 50%;
+  padding: 5px 6px;
+  transition: background-color 0.3s ease;
+}
+
+.global-btn-right a:hover {
+  background-color: #354C37;
+  color: #fff;
+}
+
+.global-btn:hover .global-btn-left {
+  background-color: white;
+  color: black;
+}
+
+/* Ensure button text doesn't inherit underline */
+.global-btn-left button {
+  background: none;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  width: 100%;
+}
+
+
+/* for marquee text scroll  */
+@keyframes marquee {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+.animate-marquee {
+  animation: marquee 20s linear infinite;
+}
+/* for marquee text scroll  */
