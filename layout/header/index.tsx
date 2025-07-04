@@ -34,7 +34,7 @@ const Header: React.FC = () => {
 
           {/* Hire Me Button */}
           <div className="bg-white text-black rounded-2xl px-4 sm:px-6 py-2 font-bold cursor-pointer hover:bg-[#FAAD1A] transition-all duration-300">
-            <button>Hire Me</button>
+            <a href="https://drive.google.com/drive/folders/17yK9a_C7XttaXHy7L5JxtrJnH1OFi9Yp?usp=sharing" target="_blank" rel="noopener noreferrer"><button className='cursor-pointer'>Hire Me</button></a>
           </div>
         </div>
       </section>
