@@ -7,7 +7,7 @@ const Header: React.FC = () => {
         <div className="flex justify-between items-center w-[90%] mx-auto py-2 my-4 bg-[#354C37] text-white px-4 sm:px-6 rounded-2xl shadow-sm shadow-amber-300">
           <div>
             <a href="/">
-              <h1>LOGO</h1>
+              <h1>AMIT KUMAR</h1>
             </a>
           </div>
 
