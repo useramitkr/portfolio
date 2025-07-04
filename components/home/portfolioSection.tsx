@@ -16,11 +16,11 @@ const PortfolioSection = () => {
             value: "react",
             content: <ReactPortfolio />
         },
-        {
-            label: "HTML/CSS",
-            value: "html",
-            content: <HtmlCSSPortfolio />
-        },
+        // {
+        //     label: "HTML/CSS",
+        //     value: "html",
+        //     content: <HtmlCSSPortfolio />
+        // },
         {
             label: "WordPress/Shopify",
             value: "wordpress",
