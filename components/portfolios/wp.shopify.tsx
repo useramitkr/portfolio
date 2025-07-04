@@ -56,7 +56,7 @@ const WpShopifyPortfolio: React.FC = () => {
                 </div>
 
                 <div className='bg-[#f6f6f6] p-3 rounded-2xl'>
-                    <Image src='/images/portfolios/wordpress/feroall.webp' alt='Feroall - WordPress' width={1200} height={700} className='rounded-2xl' />
+                    <Image src='/images/portfolios/wordpress/Feroall.webp' alt='Feroall - WordPress' width={1200} height={700} className='rounded-2xl' />
                     <div className='flex items-center py-4 gap-2'>
                         <p className='bg-amber-300 py-2 px-5 rounded-3xl font-medium text-[14px]'>WordPress</p>
                         <p className='bg-amber-300 py-2 px-5 rounded-3xl font-medium text-[14px]'>WooCommerce</p>
